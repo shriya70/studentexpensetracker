@@ -5,7 +5,10 @@ services:
     container_name: cloudops-app
     environment:
       APP_VERSION: "local-compose"
-      SERVICE_NAME: "cloudops-mini-lab"
+      SERVICE_NAME: "student-expense-tracker"
+      DATABASE_PATH: "/data/expenses.db"
+    volumes:
+      - expense-data:/data
     ports:
       - "8080:8000"
     restart: unless-stopped
@@ -53,5 +56,6 @@ networks:
     name: cloudops-observability
 
 volumes:
+  expense-data:
   prometheus-data:
   grafana-data:
