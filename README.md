@@ -1,4 +1,4 @@
-Student Expense Tracker
+STUDENT EXPENSE TRACKER
 
 A student-focused web application for recording daily expenses, organizing spending by category, and comparing monthly spending with a monthly budget. The application uses Flask and SQLite, runs in Docker, and has a GitHub Actions workflow that tests the code, builds a Docker image, and publishes it to GitHub Container Registry (GHCR).
 
