@@ -96,7 +96,7 @@ GHCR image: ghcr.io/shriya70/studentexpensetracker
 
 - GitHub Actions runs (https://github.com/shriya70/studentexpensetracker/actions)
 - GitHub Packages for the owner (https://github.com/shriya70?tab=packages)
-- Student Expense Tracker package (https://github.com/users/shriya70/packages/container/studentexpensetracker)
+- Student Expense Tracker package (https://github.com/shriya70/studentexpensetracker/pkgs/container/studentexpensetracker)
 
 To pull the image, first check the package's versions page and use a tag that actually exists:
 
